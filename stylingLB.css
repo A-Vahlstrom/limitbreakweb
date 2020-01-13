@@ -1,0 +1,91 @@
+/* fonts and their target area 
+
+font-family: 'Tomorrow', sans-serif;    - headers
+font-family: 'Rubik', sans-serif;       - paragraph
+font-family: 'PT Sans Narrow', sans-serif;  - special text
+
+*/
+
+
+body {
+    background-color: #00070f;
+    color: white;
+}
+
+#logo-nav {
+    width: 20vw;
+    height: 8vw;
+}
+
+.nav-link {
+    font-size: 1.4em;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #80a4cb;
+}
+
+
+.jumbotron-fluid {
+    background-color: #00070f;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-top: 5vw;
+}
+
+h1 {
+    font-family: 'Tomorrow', sans-serif;
+    text-align: center;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-us-text {
+    border-top: white solid 3px;
+    padding-top: 2vw;
+    margin-top: 0px;
+    font-size: 1.7em;
+}
+
+#about-us-pic {
+    border: groove #80a4cb 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#more-info {
+    width: 200px;
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+/* news section */
+
+#news-section {
+    background-color: #000e1e;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    color: black;
+    border: groove #80a4cb 5px;
+}
+
+.card-title {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.card-text {
+    font-family: 'Rubik', sans-serif;
+}
