@@ -126,3 +126,21 @@ h5 {
 h2 {
     font-family: 'PT Sans Narrow', sans-serif;
 }
+.jumbotron{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.jumbotron:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+.contact{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.card{
+    background-color: #193367;
+    border-style: none;
+    text-align: center;
+
+}
