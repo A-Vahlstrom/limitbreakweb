@@ -137,10 +137,18 @@ h2 {
 .contact{
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
-.card{
+.card {
     background-color: #193367;
     border-style: none;
     text-align: center;
-
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
+.card:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
