@@ -30,7 +30,7 @@ body {
 .jumbotron-fluid {
     background-color: #00070f;
     font-family: 'PT Sans Narrow', sans-serif;
-    margin-top: 2vw;
+    /* margin-top: 2vw; */
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
 }
-
+/* ---------------^^Can add all that into html code with BS instead-------------- */
 #about-us-text {
     border-top: white solid 3px;
     padding-top: 2vw;
