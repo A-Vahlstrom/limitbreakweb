@@ -126,11 +126,11 @@ h5 {
 h2 {
     font-family: 'PT Sans Narrow', sans-serif;
 }
-.jumbotron{
+.jumbotron_opacity{
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
-.jumbotron:hover{
+.jumbotron_opacity:hover{
     opacity: 1.0;
     filter: alpha(opacity=100);
 }
