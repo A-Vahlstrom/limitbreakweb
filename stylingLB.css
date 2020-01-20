@@ -19,7 +19,22 @@ body {
     height: 11%;
 }
 
+#contact-snow {
+    width: 100%;
+    height: 80%;
+}
 
+@media only screen and (max-width: 600px) {
+    .media {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #contact-snow {
+        height: 40%;
+    }
+}
 #logo-nav {
     width: 15vw;
     height: 6vw;
